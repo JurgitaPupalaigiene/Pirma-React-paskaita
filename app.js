@@ -2,8 +2,8 @@ console.log('Pasileido')
 for (var i = 0; i < 10; i++) {
     console.log('Pasileido' + i)
 }
-const component = < h1 > Hello,
-    world < /h1>;
+const component = <h1> Hello,
+    world </h1>;
 
 ReactDOM.render(
     component,
@@ -22,8 +22,10 @@ var HelloComponent = React.createClass({
 });
 
 ReactDOM.render(React.createElement(
-        HelloComponent, {
-            name: "Jane"
-        }),
+        HelloComponent,
+         {name: "Jane"}),
     document.getElementById('root')
 );
+<MyButton color="blue" shadowSize={2}>
+Click Me
+</MyButton>
